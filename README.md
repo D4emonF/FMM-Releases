@@ -2,29 +2,6 @@
 
 Aplicativo desktop para gerenciar mods do FiveM com um clique.
 
-## ✅ Pré-requisitos
-
-1. **Go 1.21+** → https://go.dev/dl/
-2. **Node.js 18+** → https://nodejs.org/
-3. **Wails v2** → Instale com:
-   ```bash
-   go install github.com/wailsapp/wails/v2/cmd/wails@latest
-   ```
-4. **WebView2** (já vem no Windows 11; Windows 10 baixa automático)
-
-## 🚀 Compilar e Rodar
-
-### Modo desenvolvimento (com hot-reload):
-```bash
-wails dev
-```
-
-### Compilar para .exe final:
-```bash
-wails build
-```
-O executável será gerado em `build/bin/FiveMModManager.exe`
-
 ## 📁 Estrutura de Pastas dos Mods
 
 Configure no app a pasta base dos mods (ex: `E:/FiveM/Mods`) e organize assim:
